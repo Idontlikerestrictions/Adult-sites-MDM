@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webcontent-filter</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.blockadult.auto.profile</string>
+            <key>PayloadUUID</key>
+            <string>123e4567-e89b-12d3-a456-426614174000</string>
+            <key>PayloadDisplayName</key>
+            <string>Block Adult Content</string>
+            
+            <!-- Use built-in adult filter -->
+            <key>FilterType</key>
+            <string>adult</string>
+
+            <!-- Prevent profile removal -->
+            <key>AllowRemoval</key>
+            <false/>
+
+            <!-- Notifications still allowed -->
+            <key>AllowNotifications</key>
+            <true/>
+        </dict>
+    </array>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.blockadult.auto.profile</string>
+    <key>PayloadUUID</key>
+    <string>987f6543-21cb-4d3a-b678-abcdef123456</string>
+    <key>PayloadDisplayName</key>
+    <string>Block Adult Content</string>
+</dict>
+</plist>
