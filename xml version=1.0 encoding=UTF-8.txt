@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.performance.restrictions</string>
+            <key>PayloadUUID</key>
+            <string>4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a</string>
+            <key>PayloadDisplayName</key>
+            <string>Performance + Battery Saver</string>
+
+            <!-- Battery saving tweaks -->
+            <key>allowAppInstallation</key>
+            <true/>
+            <key>allowAutomaticDownloads</key>
+            <false/>
+            <key>allowBackgroundAppRefresh</key>
+            <false/>
+
+            <!-- Allow background refresh only for specific apps -->
+            <key>whitelistBackgroundAppRefresh</key>
+            <array>
+                <dict>
+                    <key>bundleIdentifier</key>
+                    <string>com.strava.Strava</string>
+                    <key>allowBackgroundAppRefresh</key>
+                    <true/>
+                </dict>
+                <dict>
+                    <key>bundleIdentifier</key>
+                    <string>com.strong.Strong</string>
+                    <key>allowBackgroundAppRefresh</key>
+                    <true/>
+                </dict>
+            </array>
+
+            <!-- Keep AirDrop and Notifications -->
+            <key>allowAirDrop</key>
+            <true/>
+        </dict>
+    </array>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.performance.profile</string>
+    <key>PayloadUUID</key>
+    <string>5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b</string>
+    <key>PayloadDisplayName</key>
+    <string>Performance + Battery Saver Profile</string>
+</dict>
+</plist>

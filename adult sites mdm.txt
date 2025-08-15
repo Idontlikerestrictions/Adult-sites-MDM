@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webcontent-filter</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.adultblock.webfilter</string>
+            <key>PayloadUUID</key>
+            <string>1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d</string>
+            <key>PayloadDisplayName</key>
+            <string>Adult Sites Filter</string>
+            <key>FilterType</key>
+            <string>limitAdultContent</string>
+        </dict>
+
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.applicationaccess</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadIdentifier</key>
+            <string>com.adultblock.restrictions</string>
+            <key>PayloadUUID</key>
+            <string>2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e</string>
+            <key>PayloadDisplayName</key>
+            <string>Adult Block Restrictions</string>
+            <key>PayloadRemovalDisallowed</key>
+            <true/>
+        </dict>
+    </array>
+
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.adultblock.profile</string>
+    <key>PayloadUUID</key>
+    <string>3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f</string>
+    <key>PayloadDisplayName</key>
+    <string>Adult Sites Lock Profile</string>
+</dict>
+</plist>
